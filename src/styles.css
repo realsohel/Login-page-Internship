@@ -1,0 +1,25 @@
+/* src/styles.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.button{
+    font-weight: 500;
+    padding: 0.4rem 1.4rem;
+    color: white;
+    background: rgb(228, 79, 104);
+    border: none;
+    border-radius: 8px;
+    transition: all 300ms ease-in;
+}
+
+.button:hover{
+cursor: pointer;
+transform: scale(1.1);
+}  
+
+button:disabled{
+    color: white;
+    background: rgb(248, 150, 167);
+    /* cursor: not-allowed */
+}

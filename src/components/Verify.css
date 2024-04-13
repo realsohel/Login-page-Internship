@@ -1,0 +1,30 @@
+li{
+    display: table-cell;
+    position: relative;
+    padding: 0.25rem 1rem;
+}
+
+.hover-effect {
+    color: gray;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    
+    display: inline-block;
+    position: relative;
+}
+.hover-effect:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: rgb(92, 91, 91);
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+.hover-effect:hover:after { 
+    width: 100%; 
+    left: 0; 
+}
