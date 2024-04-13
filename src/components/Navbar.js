@@ -12,10 +12,26 @@ const Navbar = () => {
                 </h1>
 
                 <ul className='hidden sm:table  text-center mx-4 my-auto'>
-                    <li><a href="#" className='hover-effect'>About</a></li>
-                    <li><a href="#" className='hover-effect'>Portfolio</a></li>
-                    <li><a href="#" className='hover-effect'>Blog</a></li>
-                    <li><a href="#" className='hover-effect'>Contact</a></li>
+                    <li>
+                        <a href="https://github.com/realsohel" target='_blank' rel="noreferrer" className='hover-effect'>
+                            About
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/realsohel" target='_blank' rel="noreferrer" className='hover-effect'>
+                            Portfolio
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/realsohel" target='_blank' rel="noreferrer" className='hover-effect'>
+                            Blog
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/realsohel" target='_blank' rel="noreferrer" className='hover-effect'>
+                            Contact
+                        </a>
+                    </li>
                 </ul>
             </div>
             
